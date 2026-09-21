@@ -51,6 +51,7 @@ El menú debe mostrar las siguientes opciones:
 Registrar una persona.
 Mostrar un mensaje de bienvenida.
 Salir.
+
 2- Repetir el menú
 El programa debe continuar mostrando el menú hasta que el usuario seleccione la opción Salir.
 
@@ -61,19 +62,15 @@ Utilizá switch para procesar las diferentes opciones y mostrar un mensaje segú
 Si el usuario ingresa una opción que no existe, mostrá un mensaje indicando que la opción no es válida.
 
 5- Ejemplo
+
 ===== MENÚ =====
-
 1. Registrar persona
-
 2. Mostrar mensaje de bienvenida
-
 3. Salir
 
 Seleccione una opción: 2
-
 ¡Bienvenido/a al sistema!
 
 Seleccione una opción: 3
-
 Programa finalizado.
  */

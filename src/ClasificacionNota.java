@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ClasificacionNota {
 
-}
+
     public static void main(String[] args) {
 
         Scanner lector = new Scanner(System.in);
@@ -28,6 +28,7 @@ public class ClasificacionNota {
         System.out.println();
 
         lector.close();
+    }
 }
 
 
