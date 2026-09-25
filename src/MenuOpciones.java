@@ -40,36 +40,3 @@ public class MenuOpciones {
         System.out.println();
     }
 }
-
-
-/*
-Menú de opciones
-En este desafío vas a crear un pequeño menú de opciones utilizando la estructura switch.
-
-1- Mostrar el menú
-El programa debe mostrar las siguientes opciones:
-
-1 - Registrar persona
-2 - Buscar persona
-3 - Salir
-2- Solicitar una opción
-Pedir al usuario que ingrese el número correspondiente a la opción que desea seleccionar.
-
-3- Mostrar un mensaje
-Utilizar switch para determinar qué mensaje mostrar según la opción ingresada.
-
-Ejemplo
-Menú
-
-1 - Registrar persona
-
-2 - Buscar persona
-
-3 - Salir
-
-Opción seleccionada: 1
-
-Mensaje: Seleccionaste Registrar persona.
-
-Importante: por ahora no es necesario implementar el registro ni la búsqueda de personas. El objetivo es practicar el uso de switch para responder a diferentes opciones.
- */

@@ -1,16 +1,20 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
-public class MenuInteractivo {
+public class RegistroAutomaticoPersonas {
     public static void main(String[] args) {
 
         Scanner lector = new Scanner(System.in);
+
+        String nombre = "";
+        ArrayList<String> personas = new ArrayList<>();
 
         int opcion = 0;
         while (opcion != 3) {
             System.out.println("===== MENÚ =====");
             System.out.println();
             System.out.println("1. Registrar persona.");
-            System.out.println("2. Mostrar mensaje de bienvenida.");
+            System.out.println("2. Mostrar personas.");
             System.out.println("3. Salir.");
             System.out.println();
             System.out.print("Seleccione una opción: ");
@@ -19,11 +23,17 @@ public class MenuInteractivo {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("Registrar una persona.");
+                    System.out.println("Registro de persona.");
+                    System.out.println();
+                    System.out.print("Ingrese el nombre: ");
+                    nombre = lector.next();
+                    personas.add(nombre);
                     System.out.println();
                     break;
                 case 2:
-                    System.out.println("¡Bienvenido/a al sistema!");
+                    System.out.println("2. Mostrar personas.");
+                    System.out.println();
+                    System.out.println("Personas registradas: " + personas);
                     System.out.println();
                     break;
                 case 3:
@@ -37,6 +47,3 @@ public class MenuInteractivo {
         }
     }
 }
-
-
-

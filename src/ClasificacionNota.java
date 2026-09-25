@@ -31,33 +31,3 @@ public class ClasificacionNota {
     }
 }
 
-
-
-
-/*
-
-En este desafío vas a trabajar con una nota numérica y estructuras condicionales para determinar el resultado obtenido.
-
-1- Solicitar
-Nombre
-Nota
-
-2- Definir
-Vos vas a definir el rango de números correspondiente a cada calificación:
-
-Excelente
-Aprobado
-Desaprobado
-
-3- Mostrar
-Mostrar el nombre de la persona y la calificación que obtuvo según la nota ingresada.
-
-Ejemplo
-
-Juan
-Nota: 9
-Resultado: Excelente
-
-Importante: los rangos de notas para determinar Excelente, Aprobado y Desaprobado quedan a tu criterio.
-
- */
